@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
 
+To run this application, please make sure to install below software:
+=> Node
+=> Git Base
+
+Run command to install Angular CLI:
+=> npm i @angular/cli
+
 ## Development server
 
 To start a local development server, run:
