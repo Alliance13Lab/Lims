@@ -7,7 +7,7 @@ To run this application, please make sure to install below software:
 => Git Base
 
 Run command to install Angular CLI:
-=> npm i @angular/cli
+=> npm i @angular/cli -g
 
 ## Development server
 
