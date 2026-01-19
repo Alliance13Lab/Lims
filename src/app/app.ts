@@ -16,6 +16,6 @@ export class App {
   protected readonly title = signal('lims');
 
   constructor() {
-    setTheme('bs4'); // or 'bs4'
+    setTheme('bs5'); // or 'bs4'
   }
 }

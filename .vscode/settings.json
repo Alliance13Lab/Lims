@@ -1,22 +1,23 @@
 {
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "files.eol": "\n",
-    "workbench.statusBar.visible": true,
-    "window.zoomLevel": 0,
-    "prettier.singleQuote": true,
-    "prettier.semi": true,
-    "prettier.trailingComma": "none",
-    "editor.defaultFormatter":  "esbenp.prettier-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.formatOnSave": true,
-    "breadcrumbs.enabled": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    }
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.eol": "\n",
+  "workbench.statusBar.visible": true,
+  "window.zoomLevel": 0,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "path-intellisense.extensionOnImport": true,
+  "editor.formatOnSave": true,
+  "breadcrumbs.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }

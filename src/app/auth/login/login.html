@@ -1,0 +1,116 @@
+<table align="center" width="100%" style="height: 90vh;">
+  <tbody>
+    <tr>
+      <td align="center" width="30%">
+        <table style="padding: 14%; box-shadow: 0 8px 16px rgb(0 0 0 / 50%);">
+          <tbody>
+            <tr>
+              <td>
+                <img id="Image1" src="images/logo.jpg" style="border-width:0px;height: 135px;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table id="tblLoginAuth" align="center">
+                  <tbody>
+                    <tr>
+                      <td colspan="2" align="center">
+                        <span id="lblMessage" style="color:Red;font-size:10px;font-weight:bold;"></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="uname" class="lblClass">
+                          <b>User Name</b></label>
+                        <input name="txtUserName" type="text" id="txtUserName" fdprocessedid="s4bmhq">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="psw" class="lblClass">
+                          <b>Password</b></label>
+                        <input name="txtPassword" type="password" id="txtPassword" fdprocessedid="ebmvsm">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="cap" class="lblClass">
+                          <b>Enter Captcha</b></label>
+                        <input name="txtCaptcha" type="text" id="txtCaptcha" fdprocessedid="42xja4">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%" align="left">
+                          <tbody>
+                            <tr>
+                              <td align="left">
+                                <img id="imgCaptcha" src="ECHEM/Admin/CaptchaImage.aspx"
+                                  style="height:50px;width:145px;border-width:0px;border-radius: 10px;">
+                              </td>
+                              <td align="right">
+                                <input type="image" name="ImageButton1" id="ImageButton1" src="images/Refresh.png"
+                                  style="height:40px;width:56px;border-width:0px;margin-left: 140px;">
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="bottom">
+                        <table width="100%" align="left">
+                          <tbody>
+                            <tr>
+                              <td align="left">
+                                <input type="submit" name="btnSubmit" value="Login" id="btnSubmit" class="button"
+                                  style="width: 90px; height: 35px;" fdprocessedid="gtmh">
+                              </td>
+                              <td align="right" valign="bottom">
+                                <a id="lnkForgotPass" style="font-size: 15px;" [routerLink]="'/forgot-password'">Forgot
+                                  Password</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td align="center" width="50%">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="slideshow-container">
+                  <carousel [isAnimated]="true">
+                    <slide>
+                      <img src="images/onboarding_1.jpg" alt="first slide" style="display: block; width: 100%;">
+                    </slide>
+                    <slide>
+                      <img src="images/onboarding_2.png" alt="second slide" style="display: block; width: 100%;">
+                    </slide>
+                    <slide>
+                      <img src="images/onboarding_3.png" alt="third slide" style="display: block; width: 100%;">
+                    </slide>
+                  </carousel>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

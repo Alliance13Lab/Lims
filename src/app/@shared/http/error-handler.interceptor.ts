@@ -25,6 +25,19 @@ export class ErrorHandlerInterceptor implements HttpInterceptor {
       // Do something with the error
       log.error('Request error', response);
     }
+
+    switch ((response as any).status) {
+      case 400:
+        break;
+      case 401:
+      case 403:
+        break;
+      case 404:
+        break;
+      case 500:
+        break;
+    }
+
     throw response;
   }
 }

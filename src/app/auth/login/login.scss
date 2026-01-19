@@ -1,0 +1,9 @@
+@import url('../../../theme/theme-variables.scss');
+
+:host ::ng-deep {
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+}

@@ -6,15 +6,18 @@ To run this application, please make sure to install below software:
 => Node
 => Git Base
 
-Run command to install Angular CLI:
-=> npm i @angular/cli
+Run command to install Angular CLI Globally in your machine:
+=> npm i -g @angular/cli
 
 ## Development server
+
+To install npm packages, run below command
+npm i --legacy-peer-deps
 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
